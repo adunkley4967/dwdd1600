@@ -1,0 +1,79 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* end of heading tags */
+
+
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+
+}
+
+a:hover{
+    color: grey;
+}
+
+
+nav ul{
+    display: flex;
+    font-size: 48px;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* Took the bullet points of the nnav with list style type */
+
+p {
+    color: black;
+    
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+ul {
+list-style-type: square; 
+    
+}
+
+ol dl{
+    padding: 5px;
+    margin: 5px;
+}
